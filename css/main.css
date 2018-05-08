@@ -1,0 +1,171 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: Wisdom Script;
+    src: url('font/wisdom-script.otf') format('opentype');;
+}
+
+/***** GRID *****/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
+p {
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+  	margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    float: left;
+    padding: 38px 0;
+}
+
+.rogue {
+    color: #77A466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+    font-size: 14px;
+    font-weight:700;
+    padding: 0 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    text-transform:uppercase;
+    text-decoration: none;
+    color: #77a466;
+
+}
+
+/***** Main *****/
+
+.main-image {
+	 height: auto;
+	 float: left;
+}
+.main-image img {
+	  border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+    height: auto;
+    float: left;
+}
+
+.main-title h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #77a466;
+    text-transform:uppercase;
+}
+
+.main-title p{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: 600;
+    padding: 0;
+}
+
+/***** Specials/Reviews/Contact *****/
+
+.section-one,
+.section-two,
+.section-three {
+    width: 399px;
+    height: auto;
+    padding-top: 10px;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+    padding: 10px 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li{
+    padding: 10px 0;
+    color:#77a466;
+    font-size: 16px;
+    font-weight: 600;
+}
+.reviews {
+    line-height: 21px;
+    font-size: 16px;
+}
+
+.contact {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    height: 50px;
+    border-top: 3px solid #eee;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.extra {
+  font-family: 'Wisdom Script';
+  color: #77A466;
+  text-transform: lowercase;
+  font-weight: lighter;
+
+}
